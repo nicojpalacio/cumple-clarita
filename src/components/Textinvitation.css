@@ -1,0 +1,9 @@
+.font-text {
+  font-family: "The Nautigal", cursive;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

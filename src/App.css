@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
+.app{
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/Papeles\ 1/DP_1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.font-tittle {
+    font-family: 'The Nautigal', cursive;
+    font-size: 3rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Ajusta los valores según tus preferencias */
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    height: 100%; /* Si deseas que ocupe toda la altura de la pantalla */
   }
-  to {
-    transform: rotate(360deg);
+  
+  .card {
+    margin:0;
+    /* Aquí puedes agregar más estilos para el diseño de la tarjeta */
   }
-}
