@@ -1,4 +1,5 @@
 import "./App.css";
+import Modalmap from "./components/Modalmap";
 
 import Textinvitation from "./components/Textinvitation";
 import Card from "./components/card";
@@ -14,6 +15,7 @@ const App = () => {
         <div className=" animate__animated animate__bounceInRight animate__slower">
           <img className="" src={imagemanuelita} alt="" />
         </div>
+        
       </div>
     </>
   );

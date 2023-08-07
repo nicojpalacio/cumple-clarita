@@ -1,5 +1,6 @@
 import React from "react";
 import "./Textinvitation.css";
+import Modalmap from "./Modalmap";
 
 const Textinvitation = () => {
   return (
@@ -10,7 +11,7 @@ const Textinvitation = () => {
       Te esperamos en el salon ""<br />
       La direccion es la siguiente 
     </p>
-    <a className="btn btn-outline-secondary" href="https://goo.gl/maps/KBNyHkFoEsDZaQNGA" target="_blank" rel="noreferrer">Direccion</a>
+    <Modalmap/>
     <p>TE ESPERAMOS!</p>
     </div>
   );
