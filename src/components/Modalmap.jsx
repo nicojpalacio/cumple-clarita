@@ -16,7 +16,7 @@ function Modalmap() {
 
       <Modal show={show} onHide={handleClose} centered>
         <Modal.Header closeButton>
-          <Modal.Title>Sector 13 maz12 casa26. Sobre Raya al 1200</Modal.Title>
+          <Modal.Title>Barrio Lomas de Tafi Sector 13 maz12 casa26. Sobre Raya al 1200</Modal.Title>
         </Modal.Header>
         <Modal.Body style={{ padding: "0" }}>
           <div
