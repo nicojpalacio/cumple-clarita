@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../img/20230806_120518-COLLAGE.jpg'
+import image from '../img/IMG_20230825_151050.jpg'
 import './card.css'
 const card = () => {
     
